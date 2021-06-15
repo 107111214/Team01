@@ -37,7 +37,7 @@ namespace Team01
                 else if (int.Parse(TextBox1.Text) < int.Parse(TextBox2.Text))
                 {
                 Label1.Text = "在大一點";
-                }
+                 }
          }
     }
  }
