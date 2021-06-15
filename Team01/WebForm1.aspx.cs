@@ -15,16 +15,10 @@ namespace Team01
                 Random rm = new Random();
             TextBox2.Text = rm.Next(1, 100).ToString();
             }
-
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-                if (int.Parse(TextBox1.Text) < 1 & int.Parse(TextBox1.Text) > 100)
-                {
-                    Label1.Text = "請輸入1~100的數值";
-                }
-
 
             if (int.Parse(TextBox1.Text) == int.Parse(TextBox2.Text))
                 {
@@ -37,7 +31,7 @@ namespace Team01
                 else if (int.Parse(TextBox1.Text) < int.Parse(TextBox2.Text))
                 {
                 Label1.Text = "在大一點";
+                }
                  }
          }
     }
- }
