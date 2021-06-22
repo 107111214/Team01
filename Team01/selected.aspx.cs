@@ -77,5 +77,10 @@ namespace Team01
         {
             TextBox3.Text = "";
         }
+
+        protected void Button4_Click(object sender, EventArgs e)
+        {
+            TextBox2.Text = "";
+        }
     }
 }
